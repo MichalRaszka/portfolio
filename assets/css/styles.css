@@ -37,7 +37,7 @@ body {
         vertical-align: baseline;
         white-space: normal;
         word-spacing: 0px;
-        color: aliceblue;
+        color: #EEEEEE;
    }
 
 
@@ -50,7 +50,7 @@ body {
    
    .container p {
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: #EEEEEE;
     text-align: center;
     letter-spacing: 1px;
     font-family: "Open Sans Condensed";
@@ -92,4 +92,10 @@ p:nth-child(2) {
        height: 160px;
    }
 
-   
+   #icon{
+       color: #8EFFB4;
+   }
+
+   #colored{
+       color: #8EFFB4;
+   }
