@@ -17,7 +17,7 @@ body {
 
 #particles-js {
     width: 100%;
-    background-image: url("https://github.com/MichalRaszka/Portfolio/blob/master/assets/img/Royal%20Blue.jpg?raw=true");
+    background-image: url("https://github.com/MichalRaszka/Portfolio/blob/0.1-Trying-new-background/assets/img/Cool%20Blues.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,29 +92,4 @@ p:nth-child(2) {
        height: 160px;
    }
 
-   .rounded-circle {
-    opacity: 0.57;
-    background-blend-mode: exclusion;
-    background-color: transparent;
-    border: 0px none rgb(0, 0, 0);
-   }
-
-
-   .rounded-circle {
-    opacity: 0.55;
-    background-blend-mode: exclusion;
-    background-color: transparent;
-    border: 0px none rgb(0, 0, 0);
-   }
    
-   .particles-js-canvas-el {
-    padding-bottom: 1px;
-    padding-top: 2px;
-    margin-bottom: 2px;
-    border-bottom-width: 200000px;
-    height: 952px;
-    text-align: left;
-    position: relative;
-    top: -774px;
-    opacity: 20%;
-   }
