@@ -7,16 +7,31 @@
 
     <title>The HTML5 Herald</title>
     <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michał Raszka">
 
     <link rel="stylesheet" href="assets/css/styles.css">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
 <body>
 
     <div id="particles-js">
-            test
+        <section class="jumbotron text-centered">
+            <div class="container">
+                <h1 class="animated fadeInDown" id="hello">IT Creative Solutions</h1>
+                <ion-icon name="code" class="animated fadeInUp delay-1s" id="icon"></ion-icon>
+                <p class="animated fadeInUp delay-1s">Hello ! My name is Michał Raszka and I am an IT enthusiast. This
+                    website
+                    represents my skills, works and passion to world of technology overall.
+                    I am mostly experienced in technical aspects of helpdesk and system administration, but i am also
+                    in love with <span id="colored">design</span> and <span id="colored">frontend programming</span>.
+                    If you would like to cooperate with me, just let me know by filling a contact form!
+                </p>
+            </div>
+        </section>
     </div>
 
 
@@ -25,10 +40,27 @@
 
 
     <!-- Scripts loading-->
+    <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
     <script src="assets/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="assets/libs/particles.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="/assets/libs/typeit.min.js"></script>
+    <script>
+        new TypeIt('#hello', {
+            speed: 75,
+            startDelay: 900
+        });
+    </script>
+
 </body>
 
 </html>
