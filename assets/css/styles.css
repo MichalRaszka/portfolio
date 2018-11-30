@@ -2,9 +2,14 @@
 
 
 
-html{
-  height:100%;
-  width: 100%;
+html {
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
 }
 
 
@@ -16,39 +21,41 @@ body {
 
 
 #particles-js {
+    position: absolute;
     width: 100%;
+    height: 100%;
     background-image: url("https://github.com/MichalRaszka/Portfolio/blob/0.1-Trying-new-background/assets/img/Midnight%20City.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container h1 {
-        font-family: "Open Sans Condensed";
-        font-size:5vw;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 76.8px;
-        text-decoration: none solid rgb(252, 252, 252);
-        text-align: center;
-        text-indent: 0px;
-        text-transform: none;
-        vertical-align: baseline;
-        white-space: normal;
-        word-spacing: 0px;
-        color: #EEEEEE;
-   }
+    font-family: "Open Sans Condensed";
+    font-size: 5vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 76.8px;
+    text-decoration: none solid rgb(252, 252, 252);
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+    color: #EEEEEE;
+}
 
 
-   .container {
+.container {
     opacity: 1;
     width: 100%;
     text-align: center;
     position: relative;
-   }
-   
-   .container p {
+}
+
+.container p {
     position: absolute;
     color: #EEEEEE;
     text-align: center;
@@ -57,45 +64,60 @@ body {
     font-size: 24px;
     line-height: 50px;
     width: 100%;
-   }
-
-
-   .jumbotron.text-centered {
-    background: transparent;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: justify;
+    padding-top: 20px;
 }
 
-p:nth-child(2) {
+
+#icon {
+    color: #8EFFB4;
+    padding-top: 30px;
+}
+
+#colored {
+    color: #8EFFB4;
+}
+
+.profile {
+    padding-top: 25%;
+}
+
+.rounded-circle {
+    opacity: 0.57;
+    background-blend-mode: normal;
+    width: 150px;
+    height: 170px;
+    padding-top: 2px;
+    margin-top: 2px;
+   }
+
+
+   nav {
+    align-content: center;
+    width: 100%;
     text-align: center;
-    padding-top: 50px;
-    line-height: 50px;
-    word-spacing: 1px;
-    letter-spacing: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
-   }
-   
-   .jumbotron.text-centered {
     text-align: center;
-   }
-   
-   h1:nth-child(1) {
-    padding-top: 20px;
-   }
-
-   .profile{
-       padding-top: 350px;
-   }
-
-   img{
-       opacity: 50%;
-       width: 150px;
-       height: 160px;
-   }
-
-   #icon{
-       color: #8EFFB4;
-   }
-
-   #colored{
-       color: #8EFFB4;
-   }
+    padding-top: 35%;
+  }
+  
+  nav a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #EEEEEE;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  
+  
+  
+  nav a:hover {
+    color: #8EFFB4;
+  }
