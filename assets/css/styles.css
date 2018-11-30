@@ -7,11 +7,6 @@ html {
     width: 100%;
 }
 
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
-
 
 body {
     margin: 0;
@@ -19,14 +14,32 @@ body {
     width: 100%;
 }
 
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.particles-js-canvas-el {
+    position: relative;
+    top: -1262px;
+    height: 800px;
+    left: -3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+   }
+   
+   #particles {
+    height: 970px;
+    padding-left: 3px;
+    padding-right: 3px;
     background-image: url("https://github.com/MichalRaszka/Portfolio/blob/0.1-Trying-new-background/assets/img/Midnight%20City.jpg?raw=true");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: static;
+   }
+
+
+
+.container {
+    height: 970px;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+
 }
 
 .container h1 {
@@ -48,15 +61,7 @@ body {
 }
 
 
-.container {
-    opacity: 1;
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
 .container p {
-    position: absolute;
     color: #EEEEEE;
     text-align: center;
     letter-spacing: 1px;
@@ -66,10 +71,17 @@ body {
     width: 100%;
     padding-left: 130px;
     padding-right: 130px;
-    text-align: justify;
     padding-top: 20px;
+    text-align: justify;
 }
 
+.card-body{
+    text-align: center;
+}
+
+.fas.fa-desktop{
+    size: 20px;
+}
 
 #icon {
     color: #8EFFB4;
@@ -81,7 +93,7 @@ body {
 }
 
 .profile {
-    padding-top: 25%;
+    padding-top: 10%;
 }
 
 .rounded-circle {
@@ -123,3 +135,9 @@ body {
   nav a:hover {
     color: #8EFFB4;
   }
+
+
+  #about{
+      background-color: #EEEEEE
+  }
+
