@@ -22,19 +22,19 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-   }
-   
-   #particles {
+}
+
+#particles {
     height: 970px;
     padding-left: 3px;
     padding-right: 3px;
     background-image: url("https://github.com/MichalRaszka/Portfolio/blob/0.1-Trying-new-background/assets/img/Midnight%20City.jpg?raw=true");
     position: static;
-   }
+}
 
 
 
-.container {
+.container#header {
     height: 970px;
     opacity: 1;
     width: 100%;
@@ -42,7 +42,7 @@ body {
 
 }
 
-.container h1 {
+.container#header h1 {
     font-family: "Open Sans Condensed";
     font-size: 5vw;
     font-style: normal;
@@ -61,7 +61,7 @@ body {
 }
 
 
-.container p {
+.container#header p {
     color: #EEEEEE;
     text-align: center;
     letter-spacing: 1px;
@@ -75,11 +75,9 @@ body {
     text-align: justify;
 }
 
-.card-body{
-    text-align: center;
-}
 
-.fas.fa-desktop{
+
+.fas.fa-desktop {
     size: 20px;
 }
 
@@ -103,10 +101,10 @@ body {
     height: 170px;
     padding-top: 2px;
     margin-top: 2px;
-   }
+}
 
 
-   nav {
+nav {
     width: 100%;
     position: fixed;
     top: 50px;
@@ -114,9 +112,9 @@ body {
     text-align: center;
     padding-top: 35%;
     padding-right: 45%;
-  }
-  
-  nav a {
+}
+
+nav a {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -127,17 +125,101 @@ body {
     position: relative;
     display: inline-block;
     transition: 0.3s;
-  }
-  
-  
-  
-  
-  nav a:hover {
+}
+
+
+
+
+nav a:hover {
     color: #8EFFB4;
-  }
+}
 
 
-  #about{
-      background-color: #EEEEEE
-  }
+#about {
+    background-color: #EEEEEE
+}
 
+.card {
+    border: none;
+}
+
+#beforework{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.card-deck {
+    margin-top: 80px;
+}
+
+
+i {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+
+
+#beforework h3{
+    font-family: InterUI, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 31.5px;
+	text-decoration: none solid rgb(88, 96, 105);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+}
+.card h5 {
+    text-align: center;
+}
+
+
+.card p,h5{
+	/* Font & Text */
+	font-family: InterUI, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 31.5px;
+	text-decoration: none solid rgb(88, 96, 105);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+}
+
+i#admin{
+    color: #6D6875;
+}
+
+i#helpdesk{
+    color: #1CB1F4;
+}
+
+i#code{
+    color: #FFCDB2;
+}
+
+hr#vertical{
+        border:         none;
+        border-left:    1px solid #E5E5E5;
+        height:         50vh;
+        width:          1px;       
+}
+
+#hrrow{
+    margin-top: 100px;
+}
