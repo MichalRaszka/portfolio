@@ -104,35 +104,6 @@ body {
 }
 
 
-nav {
-    width: 100%;
-    position: fixed;
-    top: 50px;
-    text-align: center;
-    text-align: center;
-    padding-top: 35%;
-    padding-right: 45%;
-}
-
-nav a {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #16151b;
-    margin: 0 15px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    position: relative;
-    display: inline-block;
-    transition: 0.3s;
-}
-
-
-
-
-nav a:hover {
-    color: #8EFFB4;
-}
 
 
 #about {
@@ -337,5 +308,38 @@ h1 span {
       float: none;
       direction: ltr;
    }
+}
+
+
+ .col-sm{
+     margin-top: 100px;
+     text-align: center;
+ }
+
+img{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5ms;
+}
+
+img:hover{
+    box-shadow: #212529;
+}
+
+#skills h3{
+    font-family: InterUI, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	letter-spacing: normal;
+	line-height: 31.5px;
+    color: #777777;
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+    word-spacing: 0px;
+    size: 24px;
 }
 
