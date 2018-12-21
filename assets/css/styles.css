@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
 
 
 html {
@@ -362,7 +362,7 @@ img {
 }
 
 #projects{
-    background-color: #74b9ff;
+    background-color: #00a8ff;
 }
 
 #beforeprojects h3{
@@ -372,11 +372,25 @@ img {
     line-height: 30px;
 }
 
-.card{
-    background-color: white;
-    border: 0px none rgb(0,0,0);
-    background-blend-mode: normal;
-    text-alight: center;
-    font-weight: 400;
-    font-style: normal;
+#projects h3{
+    font-family: 'Boogaloo'
+}
+
+#pcard{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: none;
+    font-family: InterUI, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+
+#pcard p{
+    font-size: 15px;
+}
+
+.card-img-top{
+    opacity: 1;
 }
