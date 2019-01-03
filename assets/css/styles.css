@@ -94,6 +94,12 @@ body {
     padding-top: 10%;
 }
 
+.profile>img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.6;
+}
+
 .rounded-circle {
     opacity: 0.57;
     background-blend-mode: normal;
