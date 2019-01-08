@@ -14,6 +14,8 @@ body {
     width: 100%;
 }
 
+/* Particles and Header */
+
 .particles-js-canvas-el {
     position: relative;
     top: -1262px;
@@ -44,13 +46,13 @@ body {
 
 .container#header h1 {
     font-family: "Open Sans Condensed";
-    font-size: 5vw;
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 76.8px;
-    text-decoration: none solid rgb(252, 252, 252);
+    text-decoration: none solid rgb(252, 252, 252);     
     text-align: center;
     text-indent: 0px;
     text-transform: none;
@@ -59,6 +61,7 @@ body {
     word-spacing: 0px;
     color: #EEEEEE;
 }
+
 
 
 .container#header p {
@@ -611,5 +614,63 @@ img {
 
 .heli{
     animation: float 6s ease-in-out infinite;
-    color: greenyellow;
+
 }
+
+#mountainimage{
+    background: url(/assets/img/Midnight\ City.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+    overflow: visible;
+}
+
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+
+
+/* View port media rules */
+
+@media only screen and (max-width: 777px) {
+    
+    .container#header h1 {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 76.8px;
+        text-decoration: none solid rgb(252, 252, 252);     
+        text-align: center;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+        color: #EEEEEE;
+    }
+    
+    
+    
+    .container#header p {
+        color: white;
+        text-align: center;
+        letter-spacing: 0.5px;
+        font-family: "Open Sans Condensed";
+        font-size: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+    
+
+  }

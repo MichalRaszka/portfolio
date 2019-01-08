@@ -39,7 +39,7 @@
         <div class="container" id="header">
             <h1 class="animated fadeInDown" id="hello">IT Creative Solutions</h1>
             <ion-icon name="code" class="animated fadeInUp delay-1s" id="icon"></ion-icon>
-            <p class="animated fadeInUp delay-1s">Hello ! My name is <span id="colored">Michał Raszka</span> and I am
+            <p id="headerp" class="animated fadeInUp delay-1s">Hello ! My name is <span id="colored">Michał Raszka</span> and I am
                 an IT enthusiast. This
                 website
                 represents my skills, works and passion to world of technology overall.
@@ -282,13 +282,15 @@
         </div>
     </div>
     <section>
-        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <div data-aos="zoom-in-down" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M166.19,-100.16 C275.67,-118.91 583.23,-194.89 587.75,-22.20 L283.57,-23.19 L249.15,44.89 Z"
                     style="stroke: none; fill: #00A8FF;"></path>
-            </svg></div>
+            </svg>
+        </div>
     </section>
     <section>
-        <footer>
+        <footer >
 
 
             <div class="container">
@@ -315,7 +317,6 @@
                     <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
                     <g>
-                        <title>background</title>
                         <rect fill="#fff" id="canvas_background" height="508.43765" width="1604" y="-1" x="-1" />
                     </g>
                     <g>
@@ -428,7 +429,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            once: true, // whether animation should happen only once - while scrolling down
+            once: false, // whether animation should happen only once - while scrolling down
 
         });
     </script>
