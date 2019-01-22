@@ -130,6 +130,7 @@ body {
 
 .card-deck {
     margin-top: 80px;
+    text-align: center;
 }
 
 
@@ -161,6 +162,7 @@ i {
 .card h5 {
     text-align: center;
 }
+
 
 
 .card p,h5{
@@ -665,7 +667,7 @@ img {
         text-align: center;
         letter-spacing: 0.5px;
         font-family: "Open Sans Condensed";
-        font-size: 16px;
+        font-size: 20px;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 20px;
@@ -673,4 +675,30 @@ img {
     }
     
 
+    #work{
+        text-align: center;
+        margin-left: 7%;
+    }
+    
+
+    #timeline.container.aos-init.aos-animate::before{
+        right: 100px;
+    }
+
+
+    #timeline:before {
+        display: none;
+     }
+
+     #arrow{
+         display: none;
+     }
+
+     #mountainimage{
+         display: none;
+     }
+
+     #footer{
+         margin-bottom: 20%;
+     }
   }
