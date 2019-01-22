@@ -677,6 +677,10 @@ img {
 }
 
 
+.card-img{
+    height: 300px;
+}
+
 /* View port media rules */
 
 @media only screen and (max-width: 777px) {
