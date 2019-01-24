@@ -3,7 +3,8 @@
 
 
 Welcome to my first portfolio. Everything was built by pure HTML, CSS, JS including some helpful libraries: 
-
+  
+  - bootstrap 
   - animate.css
   - particles.js
   - typeit.js
