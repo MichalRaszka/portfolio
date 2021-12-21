@@ -37,8 +37,8 @@ body {
     height: 970px;
     padding-left: 3px;
     padding-right: 3px;
-    background-image: url("https://github.com/MichalRaszka/Portfolio/blob/0.1-Trying-new-background/assets/img/Midnight%20City.jpg?raw=true");
     position: static;
+    background-color: #323436;
 }
 
 nav {
